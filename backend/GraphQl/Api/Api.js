@@ -1,6 +1,6 @@
 const { ApolloServer } = require("apollo-server");
 const UserSchema = require("../typeDefs");
-const UserModel = require("../resolvers");
+const UserModel = require("../Resolvers");
 const Server = new ApolloServer({
   typeDefs: UserSchema,
   resolvers: UserModel,
